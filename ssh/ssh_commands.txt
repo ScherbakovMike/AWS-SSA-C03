@@ -1,0 +1,19 @@
+### Import ssh key:
+
+#!/bin/bash -e
+echo "ssh-rsa $PUBLIC_SSH_KEY $KEY_NAME" > ~root/.ssh/authorized_keys
+exit 0 # Leave with a smile...
+
+### Current user Linux command:
+
+whoami
+
+### Close SSH session:
+
+exit
+
+### Current uptime
+
+uptime
+
+
